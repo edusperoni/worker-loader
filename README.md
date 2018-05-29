@@ -125,7 +125,7 @@ module.exports = env => {
 6. **[Angular projects only]** Install `ts-loader`:
 
 ``` bash
-npm i -D ts-loader
+npm i -D ts-loader@3.5.0
 ```
 
 7. **[Angular projects only]** Update your webpack.config.js to compile the worker files using `ts-loader` instead of the `ngtools/webpack` loader. The following code assumes that all your worker files are named in the format - ```some-name.worker.ts```. You can use a different naming convention but you have to setup the webpack loaders to also follow it.
